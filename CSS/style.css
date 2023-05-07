@@ -1,0 +1,559 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'League Spartan', sans-serif;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+}
+
+/* For top part */
+.top {
+  background: black;
+}
+/* .icon{
+  color:#005DE0;
+} */
+.left {
+  font-size: 12px;
+  color: #fff;
+ /* margin-left: 24px; */
+}
+.icon3
+{
+  color:white ;
+  transition: 0.9s;
+
+
+}
+
+
+.icon3:hover {
+  color:#005DE0;
+  transform: rotate(360deg) translateZ(0);
+}
+
+.Right {
+  font-size: 12px;
+  color: #fff;
+
+  /* margin-left: 24px; */
+
+
+}
+
+/* For Navbar part */
+
+.logo {
+  width: 150px;
+ 
+}
+
+.navbar-nav .nav-link.active{
+ color: #005DE0;
+ 
+}
+
+
+form{
+  font-family: 'League Spartan', sans-serif;
+  width:150px !important;
+}
+
+
+.nav-item {
+  color: #000;
+  font-weight: 600;
+ 
+
+  /* &:hover .dropdown-menu {
+    display: block;
+
+  } */
+}
+
+.nav-item:hover .dropdown-menu{
+  display:block;
+
+}
+
+.nav-item {
+  font-size: 14px;
+  padding: 0 10px;
+  color: #000;
+
+
+/* 
+  &:hover .nav-link {
+    color: #005DE0 !important;
+
+  } */
+}
+
+.nav-link{
+  font-size: 18px;
+  font-family: 'League Spartan', sans-serif;
+  color:#000;
+}
+.nav-item:hover .nav-link
+{
+  
+    color: #005DE0 !important;
+
+  
+}
+
+.dropdown-menu {
+  font-size: 14px;
+
+}
+
+.dropdown-menu a {
+  font-weight: 600;
+
+  &:hover {
+    color: #005DE0;
+  }
+}
+
+.nav {
+  color: #000;
+}
+
+/* For Slider */
+
+.slide1 {
+  position: relative;
+
+  .slide11 {
+    position: absolute;
+    top: 125px;
+    left: 130px;
+    color: #fff;
+    font-size: 55px;
+    font-family: 'League Spartan', sans-serif;
+
+  }
+
+
+}
+
+
+.p1 {
+  font-size: 16px;
+  top: 20px;
+  left: 30px;
+  padding-top:12px !important;
+  font-family: 'Inter', sans-serif;
+  
+  
+  
+}
+
+
+
+
+
+.box3 {
+  width: 200px;
+  text-align: center;
+  background:transparent;
+  border:1px solid #005DE0;;
+  border-radius: 20px;
+  font-family: 'League Spartan', sans-serif;
+
+
+}
+.box3 
+a {
+  text-decoration: none;
+  color: #fff;
+
+    font-family: 'Inter', sans-serif;
+
+ 
+}
+.box3:hover{
+  background-color: #005DE0;
+}
+
+h1 {
+  font-size: 55px;
+  line-height: 80px;
+  font-weight: 400;
+
+}
+
+/* For down to slider */
+.box1{
+  box-shadow: 0 2px 4px 0 rgb(201, 198, 198);
+  transition: 0.9s;
+
+}
+.p2{
+  color:#615f5f;
+  font-family: 'Inter', sans-serif;
+}
+ .box1:hover {
+    background-color: #238DE3;
+     color:#fff;
+     transform: (scale(1.3));
+     z-index: 2;
+     bottom:60px;
+ }
+ .box1:hover .p2{
+  color:#fff;
+ }
+/* For Our Team */
+
+.team{
+  background-color: #005DE0;
+}
+.box2{
+  margin:5px;
+  border-radius: 30px;
+  overflow: hidden;
+  
+}
+
+.image0{
+  position:relative;
+  transition: 0.9s;
+
+  
+  
+}
+.image0:hover{
+  transform: scale(1.1);
+}
+.text{
+  position:absolute;
+  bottom:20px;
+  color:white;
+  left: 30px;
+  transform: translate(0px,100px); transition: 0.9s;
+
+}
+ a .p3{
+  color:#005DE0;
+  font-family: 'Inter', sans-serif;
+}
+ a .p3:hover{
+  color:#fff;
+}
+.text a:hover{
+  color:#005DE0
+}
+
+.text a{
+  color:white;
+  text-decoration: none;
+}
+
+.image0:hover .text{
+  transform: translate(0px,-50px) ;
+}
+
+/* Footer */
+.footer{
+
+  margin-top: 20px;
+  background: #010C2A;
+}
+.aaa{
+  font-size: 14px;
+}
+.pp{
+  font-size: 12px;
+  color:#238DE3;
+  font-family: 'Inter', sans-serif;
+  
+}
+.ll a{
+  text-decoration: none;
+  color:white;
+  font-family: 'Inter', sans-serif;
+
+}
+.ll a:hover{
+  color:#238DE3;
+}
+.p11 a:hover{
+  color:#238DE3;
+  
+   
+}
+.p11 a{
+  color:White;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.9s;
+  font-family: 'Inter', sans-serif;
+}
+.copy
+{
+  font-size: 14px;
+}
+
+/* Services */
+.spna{
+  color:#005DE0;
+}
+.hh{
+  line-height: 52px;
+  font-weight: 600;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.box5{
+  border:1px solid rgb(189, 187, 187);
+  border-radius: 10px;
+}
+
+/* for Contact Us */
+.btn1{
+  margin-left:360px !important;
+  background-color: #005DE0;
+  color:white;
+}
+.btn1:hover{
+  background-color: #005DE0;
+  color:white;
+}
+.lorem1{
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+
+/* About US */
+.about {
+margin-top:30px;
+}
+.btnp:hover{
+background-color: transparent;
+color:black;
+
+}
+.btnp2:hover{
+background-color: transparent;
+color:black;
+}
+.about h4{
+  font-size: 30px;
+  font-weight: 600;
+}
+.about p{
+  font-size: 14px;
+  margin-top: 10px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.icon1{
+  background-color: #005DE0;
+  color:#FFC02A;
+}
+
+.featright h5{
+ 
+font-size: 22px;
+font-weight: 500;
+}
+.featright p{
+font-size: 14px;
+}
+.pp1{
+  font-size: 13px;
+  font-family: 'Inter', sans-serif;
+}
+/* FOr Project */
+.bg1{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)),url(../Image/bg7.jpg);
+  height: 300px;
+  background-repeat: no-repeat;
+  object-fit:contain;
+  /* width:100%; */
+
+}
+.bg1 h2{
+ color:#fff;
+text-align: center;
+font-size: 55px;
+padding-top: 100px;
+}
+.image1{
+  width:120px;
+  transition: 0.9s;
+  
+  
+}
+.image2{
+  width:120;
+  height:118px;
+  padding-top: 10px;
+ 
+  transition: 0.9s;
+}
+.box5 h5{
+  color:#005DE0;
+}
+.box5 h5{
+  color:#005DE0;
+}
+
+.box5{
+  overflow: hidden;
+}
+.box5:hover .image2{
+  transform:scale(1.1);
+}
+.box5:hover .image1{
+  transform:scale(1.1);
+}
+.star{
+  margin-bottom: 5px;
+  color:#005DE0;
+  margin-top: -8px;
+  opacity: 0.5;
+  
+}
+ /* Career Menus  */
+
+ .icon4{
+  font-size: 40px;
+  background-color: #005DE0;
+  opacity: 0.5;
+  padding: 20px 30px ;
+  color:white;
+ }
+ .icon4:hover{
+  opacity: 1;
+ }
+
+ .bg2{
+  margin-top: 90px;
+  background-image: url(../Image/bg2.png);
+  background-repeat: no-repeat;
+  height:1300px;
+  width:100%;
+  background-attachment: fixed;
+ }
+ .cch{
+  color:#fff;
+  font-size: 20px;
+  padding-left: 5px;
+  font-family: 'League Spartan', sans-serif;
+ }
+ .ccp{
+  color:#e3b8b8;
+  font-size: 14px;
+  padding-left: 5px;
+  font-family: 'Inter', sans-serif;
+ }
+ .Course:hover{
+  background-color: #005DE0;
+  opacity: 0.5;
+ 
+ }
+ /* .ppp{
+font-size: 14px;
+
+ } */
+
+ .cruntrr {
+  font-size: 40px;
+  padding:25px 72px;
+  border:1px solid #fff;
+  color:#fff;
+ 
+ }
+ .cruntll {
+  font-size: 40px;
+
+  padding:25px 70px;
+  border:1px solid #fff;
+  color:#fff;
+
+ }
+ .currentright{
+  margin-top: 5px;
+ }
+ .cruntrr:hover{
+  background-color: #005DE0;
+  opacity: 0.5;
+  transition: 0.9s;
+ }
+ .cruntll:hover{
+  background-color: #005DE0;
+  opacity: 0.5;
+  transition: 0.9s;
+ }
+ 
+ .cruntrr p{
+font-size: 11px;
+ }
+ .cruntll p{
+  font-size: 12px;
+ }
+
+
+ /* Our Works */
+
+  .work{
+    text-align: center;
+    font-size: 14px;
+    padding:10px 300px !important;
+    font-family: 'Inter', sans-serif;
+    
+  }
+  .work1{
+    text-align: center;
+    font-size: 14px;
+    padding:10px 150px !important;
+    font-family: 'Inter', sans-serif;
+    
+  }
+  .imgg img
+  {
+    border-radius: 10px;
+  }
+  .imgg img:hover{
+    transition: 0.9s;
+    transform: scale(1.1);
+  } 
+
+  .Res:hover{
+    transition: 0.9s;
+    transform: translate(0px,30px);
+    top:40px;
+  }
+  .spn{
+    
+   margin-right: 110px;
+  }
+  .spn a{
+    color:#86CB35;
+  text-decoration: none;
+}
+.rrrr{
+  margin-left: -100px;
+}
+.rrr{
+  margin-left: -90px;
+}
+.rrs{
+  margin-left: -124px; 
+}
+
+
